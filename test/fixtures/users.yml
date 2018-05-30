@@ -1,0 +1,19 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  status: 1
+  kind: 1
+  agency: MyString
+  account: MyString
+  bank: MyString
+  cpf: MyString
+
+two:
+  name: MyString
+  status: 1
+  kind: 1
+  agency: MyString
+  account: MyString
+  bank: MyString
+  cpf: MyString
