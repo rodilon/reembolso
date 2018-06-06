@@ -8,6 +8,10 @@ class Ability
         can :access, :rails_admin
         can :dashboard
         can :manage, Expense, user_id: user.id
+        #can :new, Expense, user_id: user.id
+        
+        #cannot :edit, Expense, :status
+
         can :manage, User, id: user.id
         cannot :new, User
 

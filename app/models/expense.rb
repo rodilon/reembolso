@@ -1,4 +1,6 @@
 class Expense < ApplicationRecord
   belongs_to :user
-  enum status: [:pending, :payd, :refused]
+  enum status: [:pending, :payd, :aproved, :refused]
+
+  
 end
